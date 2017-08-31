@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendrKit.PromptSheet", "RendrKit.PromptSheet\RendrKit.PromptSheet.csproj", "{09339161-4B88-4E64-961B-560DD7285D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendrKit.PromptSheet.iOS", "RendrKit.PromptSheet.iOS\RendrKit.PromptSheet.iOS.csproj", "{4DAC3F95-FC88-4987-970D-0EC8C9604B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RendrKit.PromptSheet.Android", "RendrKit.PromptSheet.Android\RendrKit.PromptSheet.Android.csproj", "{658306AA-DFEA-4B5F-8832-65F4189FB859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09339161-4B88-4E64-961B-560DD7285D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09339161-4B88-4E64-961B-560DD7285D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09339161-4B88-4E64-961B-560DD7285D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09339161-4B88-4E64-961B-560DD7285D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAC3F95-FC88-4987-970D-0EC8C9604B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAC3F95-FC88-4987-970D-0EC8C9604B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAC3F95-FC88-4987-970D-0EC8C9604B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAC3F95-FC88-4987-970D-0EC8C9604B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658306AA-DFEA-4B5F-8832-65F4189FB859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658306AA-DFEA-4B5F-8832-65F4189FB859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658306AA-DFEA-4B5F-8832-65F4189FB859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658306AA-DFEA-4B5F-8832-65F4189FB859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

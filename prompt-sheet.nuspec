@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>RendrKit.PromptSheet</id>
+		<version>1.0.2</version>
+		<authors>Ben Bishop and Paulo Ortins</authors>
+		<owners>Ben Bishop</owners>
+		<licenseUrl>http://rendr.io</licenseUrl>
+		<projectUrl>http://rendr.io</projectUrl>
+		<iconUrl>http://rendr.io</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Library for fancy user dialogs.</description>
+		<releaseNotes>First Commit</releaseNotes>
+		<copyright>Copyright 2017</copyright>
+		<tags>userdialogs</tags>
+		<dependencies>
+			<dependency id="Xamarin.Forms" version="2.3.2.127" />
+		</dependencies>		
+	</metadata>
+
+	<files>
+
+		<!--Core-->
+		<file src="RendrKit.PromptSheet/bin/Release/RendrKit.PromptSheet.dll" target="lib\portable-net45+wp80+win8+wpa81/RendrKit.PromptSheet.dll" />
+
+		<!--Xamarin.Android-->
+		<file src="RendrKit.PromptSheet/bin/Release/RendrKit.PromptSheet.dll" target="lib\MonoAndroid10/RendrKit.PromptSheet.dll" />			
+		<file src="RendrKit.PromptSheet.Android/bin/Release/RendrKit.PromptSheet.Android.dll" target="lib\MonoAndroid10/RendrKit.PromptSheet.Android.dll"/>	
+
+		<!--Xamarin.iOSUnified-->
+		<file src="RendrKit.PromptSheet/bin/Release/RendrKit.PromptSheet.dll" target="lib\Xamarin.iOS10/RendrKit.PromptSheet.dll" />			
+		<file src="RendrKit.PromptSheet.iOS/bin/Release/RendrKit.PromptSheet.iOS.dll" target="lib\Xamarin.iOS10/RendrKit.PromptSheet.iOS.dll" />		
+		
+	</files>	
+</package>
