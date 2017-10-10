@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace RendrKit.PromptSheet
 {
-	public abstract class SheetViewBase : ContentView
+	public abstract class SheetViewBase : ScrollView
 	{
 		protected View PopupContent;
 		protected BoxView Overlay;
