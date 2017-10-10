@@ -2,6 +2,10 @@
 
 Fancy dialogs using shared code for your Xamarin.Forms apps.
 
+| Alert Dialog  | Input Popup   |
+| ------------- | ------------- |
+| ![RendrKit.PromptSheet Alert Dialog](https://github.com/benbishop/prompt-sheet/blob/master/screenshots/alert-dialog.png)  | ![RendrKit.PromptSheet Input Popup](https://github.com/benbishop/prompt-sheet/blob/master/screenshots/input-dialog.png)  |
+
 ## Nuget
 
 * [RendrKit.PromptSheet](https://www.nuget.org/packages/RendrKit.PromptSheet) [![NuGet](https://img.shields.io/nuget/v/RendrKit.PromptSheet.svg?label=NuGet)](https://www.nuget.org/packages/RendrKit.PromptSheet)
